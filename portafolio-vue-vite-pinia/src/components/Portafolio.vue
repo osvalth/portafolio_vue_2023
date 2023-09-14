@@ -49,6 +49,13 @@ export default {
           url: "https://guitarras-vue-sergio-osbaldo.netlify.app/",
         },
         {
+          titulo: "Portafolio",
+          descripcion: "Este sitio web está dedicado a exhibir una amplia variedad de proyectos, demostrando nuestro conocimiento y experiencia en diversas áreas de desarrollo.",
+          tecnologias: "Vue.js v3, HTML5, CSS3 y JavaScript",
+          miniatura: urlBaseGoogleDrive + "1BOGk6ELW7oMe8VPxOm5useIFVOZrPCUX",
+          url: "https://portafolio-vue-2023-sergio-osbaldo.netlify.app/",
+        },
+        {
           titulo: "Generador de Códigos QR",
           descripcion: "Sitio web dedicado a generar fácilmente códigos QR para enlaces web, información de contacto, ubicaciones y más.",
           tecnologias: "HTML5, CSS3 y JavaScript",
