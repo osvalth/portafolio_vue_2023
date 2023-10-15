@@ -83,11 +83,19 @@ export default {
           miniatura: urlBaseGoogleDrive + "1S2hCcx1AB41hdBM7PiKqH4t3Ubzb8WwR",
           url: "https://consumirapis.vercel.app/",
         },
+        {
+          titulo: "Generador de Números para Rifa.",
+          descripcion: "Sitio web para generar numeros pares para rifa generando un PDF para imprimir",
+          tecnologias: "Vue.js v2, HTML5, CSS3 y JavaScript.",
+          miniatura: urlBaseGoogleDrive + "1wvqD5fqw10doFnx2hVcdFl0V5Yq2oAxv",
+          url: "https://generadordenumeroderifa.netlify.app/",
+        },
       ],
     };
   },
   mounted() {
     // Simula la carga de las imágenes
+    //https://drive.google.com/file/d/1wvqD5fqw10doFnx2hVcdFl0V5Yq2oAxv/view?usp=sharing
     setTimeout(() => {
       this.loading = false; // Cambia a false después de un tiempo (simulando la carga de imágenes)
     }, 3000); // Cambia este valor al tiempo necesario para cargar las imágenes
