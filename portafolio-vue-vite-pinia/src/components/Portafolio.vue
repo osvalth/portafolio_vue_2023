@@ -28,7 +28,7 @@
 </template>
 
 <script>
-const urlBaseGoogleDrive = "https://drive.google.com/uc?export=view&id=";
+const urlLocalBase = "../assets/miniaturas/";
 export default {
   data() {
     return {
@@ -38,56 +38,56 @@ export default {
           titulo: "Papas y plátanos castillo",
           descripcion: "Sitio web dedicado a promocionar la deliciosa variedad de papas, plátanos y otros productos de la empresa Papas y Plátanos Castillo.",
           tecnologias: "HTML5, CSS3, JavaScript y bootstrap 4",
-          miniatura: urlBaseGoogleDrive + "1bm9t_WkGcT95Z4IbXp1cDwQ6vfFxNdej",
+          miniatura: urlLocalBase + "01_proyecto.png",
           url: "https://www.papasyplatanoscastillo.com/",
         },
         {
           titulo: "Stock de Guitarras LA",
           descripcion: "Sitio web dedicado a la selección diversa de guitarras de alta calidad que se adaptan a todos los estilos musicales. Encuentra tu sonido único con nosotros hoy mismo.",
           tecnologias: "Vue.js v3, HTML5, CSS3 y JavaScript",
-          miniatura: urlBaseGoogleDrive + "1eJrdkvWDp5RbyMRHWvPrRXzxaAgi_aAn",
+          miniatura: urlLocalBase + "02_proyecto.png",
           url: "https://guitarras-vue-sergio-osbaldo.netlify.app/",
         },
         {
           titulo: "Portafolio",
           descripcion: "Este sitio web está dedicado a exhibir una amplia variedad de proyectos, demostrando nuestro conocimiento y experiencia en diversas áreas de desarrollo.",
           tecnologias: "Vue.js v3, HTML5, CSS3 y JavaScript",
-          miniatura: urlBaseGoogleDrive + "1BOGk6ELW7oMe8VPxOm5useIFVOZrPCUX",
+          miniatura: urlLocalBase + "03_proyecto.png",
           url: "https://portafolio-vue-2023-sergio-osbaldo.netlify.app/",
         },
         {
           titulo: "Generador de Códigos QR",
           descripcion: "Sitio web dedicado a generar fácilmente códigos QR para enlaces web, información de contacto, ubicaciones y más.",
           tecnologias: "HTML5, CSS3 y JavaScript",
-          miniatura: urlBaseGoogleDrive + "1q2oeqPQ3li0I4ke3Gur2JICZhsaHwFk3",
+          miniatura: urlLocalBase + "04_proyecto.png",
           url: "https://generador-codigos-qr-sergio-osbaldo.netlify.app/",
         },
         {
           titulo: "To Do List",
           descripcion: "Sitio web para crear y gestionar las tareas pendientes de manera eficiente, estableciendo recordatorios y marcando las tareas completadas.",
           tecnologias: "Nuxt.js v2, HTML5, CSS3 y JavaScript.",
-          miniatura: urlBaseGoogleDrive + "1sJDR8Ndg4c2f57WChtOQdAoPk71IvDwP",
+          miniatura: urlLocalBase + "05_proyecto.png",
           url: "https://to-do-list1.vercel.app/",
         },
         {
           titulo: "Personajes de la serie Rick & Morty (Versión 1)",
           descripcion: "Sitio web Para visualizar los personajes de Rick and Morty, mediante el consumo de una API libre.",
           tecnologias: "Vue.js v3, HTML5, CSS3 y JavaScript",
-          miniatura: urlBaseGoogleDrive + "1s8BOggLBgu8RJBCAcWJ1pLNByTj5QXD5",
+          miniatura: urlLocalBase + "06_proyecto.png",
           url: "https://rick-and-morty-tau-eight.vercel.app/",
         },  
         {
           titulo: "Personajes de la serie Rick & Morty. (Versión 2)",
           descripcion: "Aplicación de escritorio para visualizar los personajes de Rick and Morty, mediante el consumo de una API libre.",
           tecnologias: "Vue.js v2, HTML5, CSS3 y JavaScript, Electron.js y Bulma.",
-          miniatura: urlBaseGoogleDrive + "1S2hCcx1AB41hdBM7PiKqH4t3Ubzb8WwR",
+          miniatura: urlLocalBase + "07_proyecto.png",
           url: "https://consumirapis.vercel.app/",
         },
         {
           titulo: "Generador de Números para Rifa.",
           descripcion: "Sitio web para generar numeros pares para rifa generando un PDF para imprimir",
           tecnologias: "Vue.js v2, HTML5, CSS3 y JavaScript.",
-          miniatura: urlBaseGoogleDrive + "1wvqD5fqw10doFnx2hVcdFl0V5Yq2oAxv",
+          miniatura: urlLocalBase + "08_proyecto.png",
           url: "https://generadordenumeroderifa.netlify.app/",
         },
       ],
@@ -98,7 +98,7 @@ export default {
     //https://drive.google.com/file/d/1wvqD5fqw10doFnx2hVcdFl0V5Yq2oAxv/view?usp=sharing
     setTimeout(() => {
       this.loading = false; // Cambia a false después de un tiempo (simulando la carga de imágenes)
-    }, 3000); // Cambia este valor al tiempo necesario para cargar las imágenes
+    }, 2500); // Cambia este valor al tiempo necesario para cargar las imágenes
   },
 };
 </script>
