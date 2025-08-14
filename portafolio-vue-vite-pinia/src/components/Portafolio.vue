@@ -28,7 +28,7 @@
 </template>
 
 <script>
-const urlLocalBase = "../assets/miniaturas/";
+const urlLocalBase = "/miniaturas/";
 export default {
   data() {
     return {
